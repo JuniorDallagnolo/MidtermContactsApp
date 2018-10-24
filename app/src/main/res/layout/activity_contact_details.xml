@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_tv_firstname"
+        android:textSize="40px"
+        android:id="@+id/textFirstName2"/>
+
+    <EditText
+        android:id="@+id/contactFirstName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="text"
+        android:layout_below="@+id/textFirstName2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_tv_lastname"
+        android:textSize="40px"
+        android:id="@+id/textLastName2"
+        android:layout_below="@+id/contactFirstName2"/>
+
+    <EditText
+        android:id="@+id/contactLastName2"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/textLastName2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_tv_phone"
+        android:textSize="40px"
+        android:id="@+id/textPhoneNumber2"
+        android:layout_below="@+id/contactLastName2"/>
+
+    <EditText
+        android:id="@+id/phoneNumber2"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="phone"
+        android:layout_below="@+id/textPhoneNumber2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_tv_email"
+        android:textSize="40px"
+        android:id="@+id/textEmail2"
+        android:layout_below="@+id/phoneNumber2"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:enabled="false"
+        android:layout_below="@+id/textEmail2"
+        />
+    <ImageButton
+        android:src="@android:drawable/stat_sys_phone_call"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phoneNumber2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/phoneBtn"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"/>
+    <ImageButton
+        android:src="@android:drawable/sym_action_email"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="317dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/emailBtn"
+        android:layout_marginBottom="217dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textEmail2"
+        android:layout_marginLeft="187dp"
+        android:layout_marginRight="1dp"/>
+
+</RelativeLayout>

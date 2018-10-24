@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MidtermContactsApp</string>
+    <string name="activity_main_tv_author">Autor: Ernilo Dallagnolo Junior</string>
+    <string name="activity_main_tv_version">Versao: Pre Alpha</string>
+    <string name="activity_main_btn_contacts">Executar Aplicativo</string>
+    <string name="activity_contacts_list_btn_add">Adicionar Contato</string>
+    <string name="all_tv_firstname">Nome</string>
+    <string name="all_tv_lastname">Sobrenome</string>
+    <string name="all_tv_phone">Telephone</string>
+    <string name="all_tv_email">Email</string>
+    <string name="activity_add_contacts_btn_add">Adicionar</string>
+    <string name="activity_add_contacts_btn_cancel">Cancelar</string>
+</resources>
